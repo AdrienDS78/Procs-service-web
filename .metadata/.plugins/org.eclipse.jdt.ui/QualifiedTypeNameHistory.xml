@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.jws.WebService"/>
+<fullyQualifiedTypeName name="fr.paris10.miage.procs.exercice1.HelloWorld"/>
+<fullyQualifiedTypeName name="javax.xml.ws.Endpoint"/>
+<fullyQualifiedTypeName name="fr.paris10.miage.procs.exercice1.Calculette"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="radars.Voiture"/>
+<fullyQualifiedTypeName name="radars.Amende"/>
+<fullyQualifiedTypeName name="fr.paris10.miage.procs.exercice2.SystemeAmendes"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>

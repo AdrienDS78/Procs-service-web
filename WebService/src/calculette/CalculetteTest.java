@@ -10,7 +10,7 @@ import javax.xml.ws.Service;
 import org.testng.annotations.*;
 
 import fr.paris10.miage.procs.exercice1.Calculette;
-import fr.paris10.miage.procs.exercice1.HelloWorld;
+
 
 
 public class CalculetteTest {

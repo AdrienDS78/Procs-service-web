@@ -1,0 +1,7 @@
+package radars;
+
+import fr.paris10.miage.procs.exercice2.SystemeAmendes;
+
+public class SystemeAmandesImpl implements SystemeAmendes{
+
+}
