@@ -1,0 +1,6 @@
+package calculette;
+
+public class CalculetteTest {
+
+	private Calculette calc;
+}

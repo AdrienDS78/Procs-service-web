@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;calculette.CalculeteImpl&apos; to &apos;CalculetteImpl&apos;&#x0D;&#x0A;- Original project: &apos;WebService&apos;&#x0D;&#x0A;- Original element: &apos;calculette.CalculeteImpl&apos;&#x0D;&#x0A;- Renamed element: &apos;calculette.CalculetteImpl&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CalculeteImpl&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;calculette{CalculeteImpl.java[CalculeteImpl" matchStrategy="1" name="CalculetteImpl" qualified="false" references="true" similarDeclarations="false" stamp="1485357806465" textual="false" version="1.0"/>
+</session>
