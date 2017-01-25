@@ -1,0 +1,31 @@
+package radars;
+
+import fr.paris10.miage.procs.exercice2.SystemeAmendes;
+
+public class SystemeAmandesImpl implements SystemeAmendes{
+
+	@Override
+	public void enregistrer(Voiture v) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int signaler(String immatriculation, String modele, int tarif) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public Amende[] lister(String immatriculation) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void payer(int numero, String nom, int prenom) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
