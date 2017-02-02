@@ -1,0 +1,16 @@
+package radarsClient;
+
+import java.net.URL;
+
+import javax.xml.namespace.QName;
+import javax.xml.ws.Service;
+
+import fr.paris10.miage.procs.exercice2.SystemeAmende;
+
+public class RadarsClient {
+
+	URL url = new URL("http://localhost:9991/ws/saam?wsdl");
+    QName qname = new QName("http://saam/", "SystemeAmandeImplService");
+    Service service = Service.create(url, qname);
+    SystemeAmande sa = service.getPort(SystemeAmande.class);
+}

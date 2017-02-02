@@ -579,3 +579,49 @@ java -ea -classpath C:\Users\adrie_000\travail\M2\Procs td\Procs-service-web\Web
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 56283 -d C:\Users\adrie_000\travail\M2\Procs td\Procs-service-web\WebService\test-output C:\Users\ADRIE_~1\AppData\Local\Temp\testng-eclipse-1429248868\testng-customsuite.xml
 java -ea -classpath C:\Users\adrie_000\travail\M2\Procs td\Procs-service-web\WebService\bin:C:\Program Files\eclipse op\eclipse-jee-luna-R-win32-x86_64\plugins\org.testng.eclipse_6.9.5.201506120235\lib\testng.jar:C:\Program Files\eclipse op\eclipse-jee-luna-R-win32-x86_64\plugins\org.testng.eclipse_6.9.5.201506120235\lib\jcommander.jar:C:\Program Files\eclipse op\eclipse-jee-luna-R-win32-x86_64\plugins\org.testng.eclipse_6.9.5.201506120235\lib\bsh-2.0b4.jar:C:\Program Files\eclipse op\eclipse-jee-luna-R-win32-x86_64\plugins\org.testng.eclipse_6.9.5.201506120235\lib\snakeyaml.jar org.testng.remote.RemoteTestNG -serport 56283 -d C:\Users\adrie_000\travail\M2\Procs td\Procs-service-web\WebService\test-output C:\Users\ADRIE_~1\AppData\Local\Temp\testng-eclipse-1429248868\testng-customsuite.xml
+!SESSION 2017-02-02 13:46:46.752 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2017-02-02 13:46:55.227
+!MESSAGE Both 'org.eclipse.bpmn2' and 'org.eclipse.papyrus.infra.core.sasheditor.di' register an extension parser for 'di'
+
+!ENTRY org.eclipse.jface 2 0 2017-02-02 13:47:04.238
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-02-02 13:47:04.238
+!MESSAGE A conflict occurred for ALT+C:
+Binding(ALT+C,
+	ParameterizedCommand(Command(org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaeditor.copycolumn,Copy,
+		,
+		Category(org.eclipse.datatools.enablement.sybase.asa.schemaobjecteditor.examples.tableschemaedtor.10x,ASA 9.x table schema editor,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@352df548,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+C,
+	ParameterizedCommand(Command(org.eclipse.emf.emfstore.client.ui.commitProject,commit,
+		,
+		Category(org.eclipse.emf.emfstore.client.ui.project,ECP,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@45dc4d1a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-02 13:47:15.058
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-02 13:47:15.059
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adrie_000'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

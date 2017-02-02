@@ -1,14 +1,17 @@
 package radars;
 
 import java.util.ArrayList;
-import java.util.List;
+
+import javax.jws.WebService;
 
 import fr.paris10.miage.procs.exercice2.SystemeAmendes;
 
+
+@WebService(endpointInterface = "fr.paris10.miage.procs.exercice2.SystemeAmendes")
 public class SystemeAmandesImpl implements SystemeAmendes{
 
-	List<Voiture> lv = new ArrayList<Voiture>();
-	List<Amende> la = new ArrayList<Amende>();
+	ArrayList<Voiture> lv = new ArrayList<Voiture>();
+	ArrayList<Amende> la = new ArrayList<Amende>();
 	
 	@Override
 	public void enregistrer(Voiture v) {
@@ -44,6 +47,8 @@ public class SystemeAmandesImpl implements SystemeAmendes{
 				Amende a = new Amende(immatriculation,tarif);
 				la.add(a);
 				boolFaute = false;
+				
+				System.out.println(a);
 			}
 				
 		}
@@ -57,14 +62,32 @@ public class SystemeAmandesImpl implements SystemeAmendes{
 	}
 
 	@Override
-	public List<Amende> lister(String immatriculation) {
+	public ArrayList<Amende> lister(String immatriculation) {
 		// TODO Auto-generated method stub
+		
+		for(int i =0;i<la.size();i++)
+		{
+			if(la.get(i).getImmatriculation().equals(immatriculation))
+			{
+				System.out.println(la.get(i));
+			}
+		}
+		
 		return la;
 	}
 
 	@Override
-	public void payer(int numero, String nom, int prenom) {
+	public void payer(int numero, String nom, String prenom) {
 		// TODO Auto-generated method stub
+		
+		for(int i = 0; i< la.size();i++ )
+		{
+			if(la.get(i).getNumero() == numero)
+			{
+				la.remove(i);
+				System.out.println("Amande paye" + la.get(i));
+			}
+		}
 		
 	}
 

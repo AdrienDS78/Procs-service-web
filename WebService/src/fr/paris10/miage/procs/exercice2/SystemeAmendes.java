@@ -1,6 +1,6 @@
 package fr.paris10.miage.procs.exercice2;
 
-import java.util.List;
+import java.util.ArrayList;
 
 import javax.jws.WebMethod;
 import javax.jws.WebService;
@@ -15,6 +15,6 @@ public interface SystemeAmendes {
 
 	@WebMethod void enregistrer(Voiture v);
 	@WebMethod int signaler(String immatriculation, String modele, int tarif);
-	@WebMethod List<Amende> lister(String immatriculation);
-	@WebMethod void payer(int numero,String nom,int prenom);
+	@WebMethod ArrayList<Amende> lister(String immatriculation);
+	@WebMethod void payer(int numero,String nom,String prenom);
 }
